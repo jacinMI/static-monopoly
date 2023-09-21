@@ -15,6 +15,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /var/www/html/static-monoply
+            cd /var/www/html/static-monopoly
             sudo git pull origin master
             echo "Done"
